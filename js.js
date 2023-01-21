@@ -138,8 +138,8 @@ bird.style.bottom = '0'
      return
  }
      birdBottom -= gravity
-     if(birdBottom <=0 ){
-         bird.style.bottom = '0'   
+     if(birdBottom <=70){
+         bird.style.bottom = '70'   
      }
      else{
      bird.style.bottom = birdBottom + 'px'    
