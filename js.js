@@ -137,11 +137,12 @@ bird.style.bottom = '0'
  if(isGameOver){
      return
  }
-     birdBottom -= gravity
+     
      if(birdBottom <=70){
          bird.style.bottom = '70'   
      }
      else{
+birdBottom -= gravity
      bird.style.bottom = birdBottom + 'px'    
      }
  }
