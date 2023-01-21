@@ -138,12 +138,13 @@ bird.style.bottom = '0'
      return
  }
      
-     if(birdBottom <=70){
-         bird.style.bottom = '70'   
+     if(birdBottom >=70){
+birdBottom -= gravity
+     bird.style.bottom = birdBottom + 'px'
+         
      }
      else{
-birdBottom -= gravity
-     bird.style.bottom = birdBottom + 'px'    
+    bird.style.bottom = '70'   
      }
  }
  
