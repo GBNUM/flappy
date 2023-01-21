@@ -164,7 +164,7 @@ if(isGameOver){
     return 
 }
 function jumpDetail(){
-if (birdBottom<600){
+if (birdBottom<650){
     birdBottom += 5
     bird.style.bottom = birdBottom + 'px'
     counter++
@@ -178,7 +178,7 @@ if (birdBottom<600){
     
 
   else{
-      bird.style.bottom = '600px'
+      bird.style.bottom = '650px'
   }
   
 }
