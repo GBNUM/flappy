@@ -51,9 +51,9 @@
 }
  .instruction{
     text-align: center;
-    font-size: 35px;
+    font-size: 28px;
     justify-self: center;
-    width: 70%;
+    width: fit-content;
     margin: 30% 20%;
     background-color: white;
     padding: 2%;
